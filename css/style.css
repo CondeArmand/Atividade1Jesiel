@@ -24,6 +24,11 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     padding: 0 8px;
+    border-right: 1px solid #fff;
+}
+
+nav a:last-child {
+    border-right: none;
 }
 
 nav a:hover {
